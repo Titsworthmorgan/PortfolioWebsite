@@ -9,7 +9,7 @@
   justify-content: center;
   h1{
     text-align: center;
-    font-size: 64px;
+    font-size: 350%;
     position: absolute;
     bottom: 60%;
     text-shadow: 3px 2px 5px #D4AF37;
@@ -25,7 +25,7 @@
   flex-wrap: wrap;
   width: 100%;
   h2{
-    font-size: 32px;
+    font-size: 200%;
     text-shadow: 2px 1px 4px #D4AF37;
   }
   .buttonDiv{
@@ -44,6 +44,8 @@
 .backroundImage{
   z-index: -1;
 }
+
+
 
 @media (max-width: 550px) {
   .main{
