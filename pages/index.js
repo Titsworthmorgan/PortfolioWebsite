@@ -5,11 +5,12 @@ import styles from '../styles/Home.module.scss'
 import backround from '../public/backround.png'
 import FooterComponent from '../Components/Footer/Footer'
 import CenterButton from '../Components/CenterButtons/CenterButton'
-import particles from './index.htm'
+import { innerHTML } from '../assets/particles'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
+
   return (
     <>
       <Head>
@@ -19,6 +20,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
+        <div dangerouslySetInnerHTML={{__html : innerHTML}}></div>
         <div className={styles.main}>
           <h1>Morgan Titsworth</h1>
           <div className={styles.buttonHolder}>
@@ -26,10 +28,6 @@ export default function Home() {
           </div>
         </div>
         <div className={styles.iframeHolder}>
-        <iframe
-          className={styles.backGroundFrame}
-          src={particles}
-        ></iframe>
       </div>
         <Image className={styles.backroundImage}src={backround} alt={"A backround image"} fill="true" quality={100}/>
         <FooterComponent />
