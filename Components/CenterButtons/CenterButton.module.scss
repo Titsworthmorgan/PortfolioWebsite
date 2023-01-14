@@ -5,6 +5,9 @@
     flex-direction: row;
     flex-wrap: wrap;
     gap: 10px;
+    h2{
+      cursor: pointer;
+    }
     svg{
       color: white;
     }

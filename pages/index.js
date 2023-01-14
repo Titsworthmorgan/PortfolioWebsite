@@ -7,9 +7,12 @@ import FooterComponent from '../Components/Footer/Footer'
 import CenterButton from '../Components/CenterButtons/CenterButton'
 import { innerHTML } from '../assets/particles'
 
+
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
+
+
 
   return (
     <>
