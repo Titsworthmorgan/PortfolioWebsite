@@ -67,7 +67,7 @@ export default function CenterButton(){
     return(
         <>
             <div className={styles.buttonDiv}>
-                 <Link href={"/Projects"} onMouseOver={handleArrowIn} onMouseLeave={handleArrowOut}>
+                 <Link href={"/projects"} onMouseOver={handleArrowIn} onMouseLeave={handleArrowOut}>
                     <h2>Projects</h2>
                 </Link>
                 <animated.div style={{...arrowHorSpring}}>

@@ -12,6 +12,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
 
+//https://nextjs.org/docs/advanced-features/dynamic-import
 
 
   return (
@@ -30,8 +31,6 @@ export default function Home() {
             <CenterButton />
           </div>
         </div>
-        <div className={styles.iframeHolder}>
-      </div>
         <Image className={styles.backroundImage}src={backround} alt={"A backround image"} fill="true" quality={100}/>
         <FooterComponent />
       </main>
