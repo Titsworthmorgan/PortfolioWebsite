@@ -31,7 +31,13 @@ export default function Home() {
             <CenterButton />
           </div>
         </div>
-        <Image className={styles.backroundImage}src={backround} alt={"A backround image"} fill="true" quality={100}/>
+        <Image 
+          className={styles.backgroundImage}
+          style={{position: 'fixed', top: '0', left: '0', zIndex: '-1'}}
+          src={backround}
+          alt={"A backround image"}
+          quality={100}
+          responsive/>
         <FooterComponent />
       </main>
     </>

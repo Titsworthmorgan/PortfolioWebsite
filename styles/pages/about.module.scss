@@ -1,0 +1,76 @@
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.backgroundImage{
+    z-index: -1;
+}
+
+.homeButton{
+    align-self: flex-end;
+    padding: 1%;
+}
+
+.bodyContent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    .portImage{
+        width: 15%;
+        height: 15%;
+    }
+}
+
+
+.biography{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-self: center;
+    text-align: center;
+    p{
+        text-align: center;
+        word-wrap: normal;
+        width: 40%;
+        align-self: center;
+    }
+}
+.devWork{
+    margin-top: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-self: center;
+    text-align: center;
+    p{
+        text-align: center;
+        word-wrap: normal;
+        width: 40%;
+        align-self: center;
+    }
+}
+
+.otherWork{
+    margin: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-self: center;
+    text-align: center;
+    p{
+        text-align: center;
+        word-wrap: normal;
+        width: 40%;
+        align-self: center;
+    }
+}

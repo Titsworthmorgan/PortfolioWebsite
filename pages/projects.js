@@ -21,9 +21,10 @@ export default function Projects() {
             </Link>
             <Image
                 className={styles.backgroundImage}
+                style={{position: 'fixed', top: '0', left: '0', zIndex: '-1'}}
                 src={background}
                 alt={"A background image"}
-                fill="true"
+                responsive
                 quality={100}/>
             <FooterComponent />
         </div>
