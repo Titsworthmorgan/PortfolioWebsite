@@ -30,7 +30,6 @@ export default function About(){
                     src={picture}
                     alt={'A portfolio image'}
                     responsive
-                    fill
                     quality={100}
                 />
                 <div className={styles.biography}>
