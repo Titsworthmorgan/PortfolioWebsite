@@ -37,6 +37,7 @@ export default function Home() {
           src={backround}
           alt={"A backround image"}
           quality={100}
+          fill
           responsive/>
         <FooterComponent />
       </main>

@@ -25,6 +25,7 @@ export default function Projects() {
                 src={background}
                 alt={"A background image"}
                 responsive
+                fill
                 quality={100}/>
             <FooterComponent />
         </div>
