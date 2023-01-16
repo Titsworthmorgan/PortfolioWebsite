@@ -31,7 +31,7 @@ export default function Home() {
             <CenterButton />
           </div>
         </div>
-        <image 
+        <Image 
           className={styles.backgroundImage}
           style={{position: 'fixed', top: '0', left: '0', zIndex: '-1'}}
           src={backround}

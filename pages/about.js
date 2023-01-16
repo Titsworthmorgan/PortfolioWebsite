@@ -22,10 +22,10 @@ export default function About(){
         </Head>
         <div className={styles.main}>
             <div onClick={() => {router.push('/')}} className={styles.homeButton}>
-                <image src={HomePicture} alt={"Home button"} height={50} width={50}/>
+                <Image src={HomePicture} alt={"Home button"} height={50} width={50}/>
             </div>
             <div className={styles.bodyContent}>
-                <image 
+                <Image 
                     className={styles.portImage}
                     src={picture}
                     alt={'A portfolio image'}
@@ -45,7 +45,7 @@ export default function About(){
                     <p>Working with the US Army I have managed several teams of people ranging in size from 6 to 12 individuals. Charged with the oversight of those individuals general welfare and leading the professional development within their given roles. Supervising and ensuring thorough maintenance and complete operational readiness of necessary technical equipment. Managing cohesion between various sections to ensure overall operations are conducted safely and effectively.</p>
                 </div>
             </div>
-                <image
+                <Image
                     className={styles.backgroundImage}
                     style={{position: 'fixed', top: '0', left: '0', zIndex: '-1'}}
                     src={background}
