@@ -17,9 +17,9 @@ export default function Projects() {
         </Head>
         <div className={styles.main}>
             <Link href={"/"} className={styles.homeButton}>
-                <Image src={HomePicture} alt={"Home button"} height={50} width={50}/>
+                <image src={HomePicture} alt={"Home button"} height={50} width={50}/>
             </Link>
-            <Image
+            <image
                 className={styles.backgroundImage}
                 style={{position: 'fixed', top: '0', left: '0', zIndex: '-1'}}
                 src={background}

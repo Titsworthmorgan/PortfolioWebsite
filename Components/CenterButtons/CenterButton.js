@@ -72,13 +72,13 @@ export default function CenterButton(){
                     <h2>Projects</h2>
                 </div>
                 <animated.div style={{...arrowHorSpring}}>
-                    <Image src={sideways} alt={"alt Image"} height={48} width={48}/>
+                    <image src={sideways} alt={"alt Image"} height={48} width={48}/>
                 </animated.div>
             </div>            
             <div className={styles.buttonDiv}>
                 <h2 onMouseOver={handleArrowDown} onMouseLeave={handleArrowDownOut}>Contact</h2>
                 <animated.div style={{...arrowVerSpring}}>
-                    <Image src={downwards} alt={"alt Image"} height={48} width={48}/> 
+                    <image src={downwards} alt={"alt Image"} height={48} width={48}/> 
                 </animated.div>           
             </div>            
             <div className={styles.buttonDiv}>
@@ -86,7 +86,7 @@ export default function CenterButton(){
                     <h2>About</h2>
                 </div>
                 <animated.div style={{...arrowHor2Spring}}>
-                    <Image src={sideways} alt={"alt Image"} height={48} width={48}/>
+                    <image src={sideways} alt={"alt Image"} height={48} width={48}/>
                 </animated.div>
             </div>
         </>
