@@ -51,6 +51,7 @@ export default function About(){
                     src={background}
                     alt={"A background image"}
                     responsive
+                    fill
                     quality={100}/>
             <FooterComponent />
         </div>
