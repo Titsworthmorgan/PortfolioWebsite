@@ -2,7 +2,7 @@ import React from "react";
 import Head from "next/head";
 import Image from "next/image";
 import styles from '../styles/pages/about.module.scss'
-import FooterComponent from "../components/Footer/Footer";
+import FooterComponent from "../components/footer/Footer";
 import HomePicture from "../assets/home-usage-white.png"
 import background from '../assets/backround-middle.png'
 import picture from '../assets/titsworth-round.png'

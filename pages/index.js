@@ -3,9 +3,9 @@ import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '../styles/Home.module.scss'
 import backround from '../assets/background.png'
-import FooterComponent from '../components/Footer/Footer'
-import CenterButton from '../components/CenterButtons/CenterButton'
-import Particles from '../components/ParticleBackround/particles'
+import FooterComponent from '../components/footer/Footer'
+import CenterButton from '../components/centerButtons/CenterButton'
+import Particles from '../components/particleBackround/particles'
 
 
 
