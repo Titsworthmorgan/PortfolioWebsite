@@ -2,7 +2,7 @@ import Image from "next/image";
 import styles from '../styles/pages/projects.module.scss'
 import background from '../public/backround-sideways'
 import FooterComponent from "../Components/Footer/Footer";
-import HomePicture from "../public/home-usage-white"
+import HomePicture from "../public/home-usage-white.png"
 import Head from "next/head";
 import Link from 'next/link'
 export default function Projects() {
