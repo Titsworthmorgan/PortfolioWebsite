@@ -5,7 +5,9 @@ import styles from '../styles/Home.module.scss'
 import backround from '../public/backround.png'
 import FooterComponent from '../Components/Footer/Footer'
 import CenterButton from '../Components/CenterButtons/CenterButton'
-import { innerHTML } from '../assets/particles'
+import Particles from '../Components/ParticleBackround/particles'
+
+
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -13,8 +15,6 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
 
 //https://nextjs.org/docs/advanced-features/dynamic-import
-
-
   return (
     <>
       <Head>
@@ -24,7 +24,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <div dangerouslySetInnerHTML={{__html : innerHTML}}></div>
+        <Particles />
         <div className={styles.main}>
           <h1>Morgan Titsworth</h1>
           <div className={styles.buttonHolder}>

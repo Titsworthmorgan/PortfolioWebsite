@@ -7,7 +7,11 @@ import FooterComponent from "../Components/Footer/Footer";
 import HomePicture from "../public/Home-usage-white.png"
 import background from '../public/Backround-middle.png'
 import picture from '../public/Titsworth-round.png'
+import { useRouter } from 'next/router'
+
+
 export default function About(){
+    const router = useRouter()
 
     return(
         <>
@@ -18,9 +22,9 @@ export default function About(){
             <link rel="icon" href="/favicon.ico" />
         </Head>
         <div className={styles.main}>
-            <Link href={"/"} className={styles.homeButton}>
+            <div onClick={() => {router.push('/')}} className={styles.homeButton}>
                 <Image src={HomePicture} alt={"Home button"} height={50} width={50}/>
-            </Link>
+            </div>
             <div className={styles.bodyContent}>
                 <Image 
                     className={styles.portImage}
@@ -31,15 +35,15 @@ export default function About(){
                 />
                 <div className={styles.biography}>
                     <h1>Biography</h1>
-                    <p>loremasda aaaaaaa aaaaaaa aaaaaaa aaaaaa aaaaaa aaaaaaaa aaaaa aaaaaaa aaaaaaaaaa aaaaaaaaaa aaaaaa asdasd asdasda sd asde retg</p>
+                    <p>I am a Combat Engineer and Computer/detection systems repairer with a Secret Security clearance and ~4 years of proven experience in the United States Army. Accomplished measurable results while leading teams of 6-12 in a dynamic, fast - paced environment. Possess a comprehensive background in software implementation and technical hardware diagnostics/repair derived from conducting domestic and global operations in The United States. Advised and assisted counterpart units and leaders on implementation of tactics to ensure success. Managed risk upon multiple lines to protect assets, property, and equipment valued over $5,000,000 while meeting the expectations of senior leadership. Possess extensive knowledge in information technology services and nuances of many different areas of technical hardware. Recipient of multiple awards for outstanding performance and professionalism. In 2021 co-founding To Be Determined as a web developer and the head of culture/human resources. Throughout the process of starting TBD focusing heavily in web application development for TBD. </p>
                 </div>
                 <div className={styles.devWork}>
                     <h1>Development work</h1>
-                    <p>loremasda aaaaaaa aaaaaaa aaaaaaa aaaaaa aaaaaa aaaaaaaa aaaaa aaaaaaa aaaaaaaaaa aaaaaaaaaa aaaaaa asdasd asdasda sd asde retg</p>
+                    <p>Within TBD, as well as other digital consulting mediums, I have focused heavily on development of web applications with various programming languages including; HTML; CSS; JavaScript; and various libraries such as jQuery and react, most notably have been using Next.JS. I have experience with various CI/CD platforms, using a multitude of backend solutions ranging from wordpress to Google Cloud Platform and Vercell. Using and implementing databases; most notably Firestore. Google Cloud based development and extensive use of version control systems: Git and GitHub. Working within the agile methodology ensuring task completion and client satisfaction. As well as ensuring employees within an open employment model are properly integrated within our work space and community.</p>
                 </div>
                 <div className={styles.otherWork}>
                 <h1>Other work</h1>
-                    <p>loremasda aaaaaaa aaaaaaa aaaaaaa aaaaaa aaaaaa aaaaaaaa aaaaa aaaaaaa aaaaaaaaaa aaaaaaaaaa aaaaaa asdasd asdasda sd asde retg</p>
+                    <p>Working with the US Army I have managed several teams of people ranging in size from 6 to 12 individuals. Charged with the oversight of those individuals general welfare and leading the professional development within their given roles. Supervising and ensuring thorough maintenance and complete operational readiness of necessary technical equipment. Managing cohesion between various sections to ensure overall operations are conducted safely and effectively.</p>
                 </div>
             </div>
                 <Image

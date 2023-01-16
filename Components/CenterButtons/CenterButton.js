@@ -2,11 +2,12 @@ import styles from './CenterButton.module.scss'
 import Image from 'next/image'
 import sideways from '../../public/Arrow_usage.png'
 import downwards from '../../public/Arrow_down_usage.png'
-import Link from 'next/link'
 import { useState } from 'react'
 import { useSpring, animated, easings, } from 'react-spring'
+import { useRouter } from 'next/router'
 
 export default function CenterButton(){
+    const router = useRouter()
     let arrowMoveOut = {
         from: {opacity: 0},
         to: [
@@ -67,9 +68,9 @@ export default function CenterButton(){
     return(
         <>
             <div className={styles.buttonDiv}>
-                 <Link href={"/projects"} onMouseOver={handleArrowIn} onMouseLeave={handleArrowOut}>
+                 <div onMouseOver={handleArrowIn} onMouseLeave={handleArrowOut} onClick={() => {router.push('/projects')}}>
                     <h2>Projects</h2>
-                </Link>
+                </div>
                 <animated.div style={{...arrowHorSpring}}>
                     <Image src={sideways} alt={"alt Image"} height={48} width={48}/>
                 </animated.div>
@@ -81,9 +82,9 @@ export default function CenterButton(){
                 </animated.div>           
             </div>            
             <div className={styles.buttonDiv}>
-                <Link href={"/about"} onMouseOver={handleAbArrowIn} onMouseLeave={handleAbArrowOut}>
+                <div onClick={() => {router.push('/about')}} onMouseOver={handleAbArrowIn} onMouseLeave={handleAbArrowOut}>
                     <h2>About</h2>
-                </Link>
+                </div>
                 <animated.div style={{...arrowHor2Spring}}>
                     <Image src={sideways} alt={"alt Image"} height={48} width={48}/>
                 </animated.div>

@@ -3,6 +3,9 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    h1{
+        text-shadow: 3px 2px 5px #D4AF37;
+    }
 }
 .backgroundImage{
     z-index: -1;
@@ -11,6 +14,7 @@
 .homeButton{
     align-self: flex-end;
     padding: 1%;
+    cursor: pointer;
 }
 
 .bodyContent{
