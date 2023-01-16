@@ -1,6 +1,6 @@
 import Image from "next/image";
 import styles from '../styles/pages/projects.module.scss'
-import background from '../assets/backround-sideways'
+import background from '../assets/backround-sideways.png'
 import FooterComponent from "../components/Footer/Footer";
 import HomePicture from "../assets/home-usage-white.png"
 import Head from "next/head";
