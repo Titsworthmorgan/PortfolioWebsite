@@ -3,9 +3,9 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from '../styles/pages/about.module.scss'
 import FooterComponent from "../Components/Footer/Footer";
-import HomePicture from "../public/Home-usage-white.png"
-import background from '../public/Backround-middle.png'
-import picture from '../public/Titsworth-round.png'
+import HomePicture from "../public/home-usage-white.png"
+import background from '../public/backround-middle.png'
+import picture from '../public/titsworth-round.png'
 import { useRouter } from 'next/router'
 
 
