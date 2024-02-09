@@ -4,7 +4,7 @@ export default function FooterComponent(){
 
     return(
         <div className={styles.footer}>
-            <h3>Designed and developed by: Morgan Titsworth asdasdasd</h3>
+            <h3>Designed and developed by: Morgan Titsworth</h3>
         </div>
     )
 }
